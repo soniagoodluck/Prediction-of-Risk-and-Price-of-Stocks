@@ -1,0 +1,10 @@
+CREATE TABLE dbo.DW_Stock
+(
+Stockkey INT IDENTITY(1,1),
+STG_sid INT NOT NULL,
+StockName NVARCHAR(150) NULL,
+StockSymbol NVARCHAR(50) NULL,
+
+CONSTRAINT PK_DW_Stock PRIMARY KEY (Stockkey)
+);
+GO

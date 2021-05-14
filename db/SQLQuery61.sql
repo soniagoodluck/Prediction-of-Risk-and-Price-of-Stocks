@@ -1,0 +1,1 @@
+SELECT * FROM [DWARE].[dbo].[ Stock Details ]
